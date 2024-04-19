@@ -79,3 +79,18 @@ function handleNextClick(e) {
   e.preventDefault();
   swiper.slideNext();
 }
+
+document.addEventListener('keydown', handleKeyDown);
+
+function handleKeyDown(event) {
+  switch(event.keyCode) {
+    case 37: // Left arrow key
+      swiper.slidePrev();
+      break;
+    case 39: // Right arrow key
+      swiper.slideNext();
+      break;
+    default:
+      return; // Ignore other keys
+  }
+}
