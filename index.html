@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- SwiperJS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>SwiperJS & GSAP Slider</title>
+</head>
+
+<body>
+    <div class="custom-slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="title-wrap" data-swiper-parallax="-130%">
+                        <div class="title">Phnom Penh</div>
+                    </div>
+                    <div class="img">
+                        <img
+                            src="https://images.unsplash.com/photo-1594444406267-35a7730c6867?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="title-wrap" data-swiper-parallax="-130%">
+                        <div class="title">Seoul</div>
+                    </div>
+                    <div class="img">
+                        <img
+                            src="https://media.cntraveler.com/photos/5ee3ae89a44cd9f3e0662588/16:9/w_2560%2Cc_limit/Seoul-GettyImages-1140551641.jpg">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="title-wrap" data-swiper-parallax="-130%">
+                        <div class="title">Tokyo</div>
+                    </div>
+                    <div class="img">
+                        <img
+                            src="https://images.unsplash.com/photo-1604928141064-207cea6f571f?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="title-wrap" data-swiper-parallax="-130%">
+                        <div class="title">Seattle</div>
+                    </div>
+                    <div class="img">
+                        <img
+                            src="https://images.unsplash.com/photo-1589481169991-40ee02888551?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigator">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js" type="module"></script>
+
+</html>
